@@ -16,7 +16,7 @@ import {
 import useLocalStorage from "./utils/useLocalStorage";
 import { backendClient } from "~/api/backend";
 
-export const MAX_NUMBER_OF_SELECTED_DOCUMENTS = 10;
+export const MAX_NUMBER_OF_SELECTED_DOCUMENTS = 300;
 
 export const useDocumentSelector = () => {
   const [availableDocuments, setAvailableDocuments] = useState<SecDocument[]>(
